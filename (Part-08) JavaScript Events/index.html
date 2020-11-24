@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    
+</head>
+
+<body>
+     
+    <!--
+         call the hello() function by 'Single Click Me' Button.
+         Here, this event is happen when we single click the button 
+    --> 
+    <button onclick="hello();">Single Click Me</button>
+    
+    <!--
+         call the hello() function by 'Double Click Me' Button.
+         Here, this event is happen when we Double click the button 
+    -->
+    <button ondblclick="hello();">Double Click Me</button>
+    
+    <!--
+         call the hello() function by 'Right Click Me' Button.
+         Here, this event is happen when we Right click the button 
+    -->
+    <button oncontextmenu="hello();">Right Click Me</button>
+    
+    <!--
+         call the hello() function by 'Mouse Hover Effect' Button.
+         Here, this event is happen when we Mouse Hover on the button 
+    -->
+    <button onmouseenter="hello();">Mouse Hover Effect</button>
+    
+    <!--
+         call the hello() function by 'Mouse Out From Button'.
+         Here, this event is happen when we Mouse Out from the button 
+    -->
+    <button onmouseout="hello();">Mouse Out Effect</button>
+
+    <!-- Write/press any key from keyboard inside the input text then the function is start -->
+    <form onkeypress="hello();">
+        <input type="text" name="text" value="Press any key from keyboard"/>
+    </form>
+    <br/>
+    
+    <!-- press up/down/right/left key from keyboard inside the input text then the function is start -->
+    <form onkeyup="hello();">
+        <input type="text" name="text" value="Press up key from keyboard"/>
+    </form>
+    
+    
+   
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
